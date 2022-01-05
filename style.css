@@ -7,11 +7,12 @@ body{font-family: 'Pushster', cursive;
 }
 h1{font-size: 60px;}
 .orange{color:orange}
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
     
 }
+h2{font-size: 40px;}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -36,4 +37,32 @@ section{
 background-repeat: no-repeat;
 background-position: right;
 }
-p{border: 5px red aquamarine;}
+.experience-item{
+    box-shadow: 10px 10px 40px;
+    width: 40%;
+    border-radius: 15px;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.experience-area{
+    
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: left;
+    
+}
+#web-ex{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+    
+}
+#new-web{
+    border-left: solid 5px;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
